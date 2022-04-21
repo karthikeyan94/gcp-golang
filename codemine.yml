@@ -13,4 +13,4 @@ jobs:
       service: github
       integration: github_karthikeyan94
       repo: gcp-golangapp
-      branch: master
+      branch: main
