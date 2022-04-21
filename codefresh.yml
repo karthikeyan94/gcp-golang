@@ -39,4 +39,3 @@ steps:
     commands:
       - "ls"
     stage: "test"
-

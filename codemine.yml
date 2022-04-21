@@ -1,0 +1,16 @@
+version: 1.0
+name: checkoutpl
+stages:
+  stage1:
+    jobs:
+    - [clonejob]
+jobs:
+  clonejob:
+    description: source cloning job
+    type: source-checkout
+    timeout: 5
+    parameters:
+      service: github
+      integration: github_karthikeyan94
+      repo: gcp-golangapp
+      branch: master
