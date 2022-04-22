@@ -14,3 +14,4 @@ jobs:
       integration: github_karthikeyan94
       repo: gcp-golangapp
       branch: master
+workflow: on
